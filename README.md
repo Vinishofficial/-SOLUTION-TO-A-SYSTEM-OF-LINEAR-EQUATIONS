@@ -1,4 +1,4 @@
-# -SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS
+# SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS
 ## Aim:
 To write a python program to find a solution to a system of linear equations.
 ## Equipment’s required:
@@ -15,7 +15,17 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+#Program to find the solution for the given linear equations.
+#Developed by: Vinish Raj R
+#RegisterNumber:212223230243
+import numpy as np
+a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+b=np.array([-9,4,-1])
+ans=np.linalg.solve(a,b)
+print(ans)
+
 ## Output:
+![alt text](image.png)
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
